@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="foodie-api" />
+        <module name="foodie-common" />
+        <module name="foodie-dev-fs" />
+        <module name="foodie-dev-search" />
+        <module name="foodie-mapper" />
+        <module name="foodie-pojo" />
+        <module name="foodie-service" />
+        <module name="foodie-sso" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

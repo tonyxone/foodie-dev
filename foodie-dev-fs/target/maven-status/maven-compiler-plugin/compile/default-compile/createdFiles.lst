@@ -1,0 +1,8 @@
+com\imooc\service\controller\BaseController.class
+com\imooc\CorsConfig.class
+com\imooc\Application.class
+com\imooc\service\FdfsService.class
+com\imooc\resource\FileResource.class
+com\imooc\service\impl\FdfsServiceImpl.class
+META-INF\spring-configuration-metadata.json
+com\imooc\service\controller\CenterUserController.class

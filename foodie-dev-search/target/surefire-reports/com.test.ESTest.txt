@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.test.ESTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 9.26 s <<< FAILURE! - in com.test.ESTest
+getIndexStu(com.test.ESTest)  Time elapsed: 0.205 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.test.ESTest.getIndexStu(ESTest.java:100)
+
+highlightStuDoc(com.test.ESTest)  Time elapsed: 0.085 s  <<< ERROR!
+org.elasticsearch.index.IndexNotFoundException: no such index
+
+updateStuDoc(com.test.ESTest)  Time elapsed: 0.978 s  <<< ERROR!
+org.elasticsearch.index.engine.DocumentMissingException: [_doc][1001]: document missing
+
